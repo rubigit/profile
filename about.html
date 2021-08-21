@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mquery.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="brand">
+            <a href="./"><img class="brandLogo" src="./img/logo1.svg" alt="Logo"></a>
+            <a href="./"><img class="brandName" src="./img/logo2.svg" alt="Rubi WebDev"></a>
+        </div>
+
+        <button id="hamBtn" class="hamBtn hamBtnOpen"></button>
+
+        <nav id="navigation" class="navigation hide">
+            <ul class="ulMenu">
+                <div>
+                    <li class="itemMenu"><a href="./">Home</a></li>
+                    <li class="itemMenu menuServices serviceOpen"><span>Services </span><span
+                            class="trangle">&dtrif;</span>
+                        <ul id="submenuServices" class="hide">
+                            <li id="sWDes" class="submenuItem"><a href="./services.html?ser=sWDes">Web design</a></li>
+                            <li id="sWDev" class="submenuItem"><a href="./services.html?ser=sWDev">Web development</a>
+                            </li>
+                            <li id="sEcom" class="submenuItem"><a href="./services.html?ser=sEcom">Ecommerce</a></li>
+                            <li id="sMark" class="submenuItem"><a href="./services.html?ser=sMark">Digital marketing</a>
+                            </li>
+                            <li id="sSupp" class="submenuItem"><a href="./services.html?ser=sSupp">Support and
+                                    maintenance</a></li>
+                        </ul>
+                    </li>
+                    <li class="itemMenu"><a href="./portafolio.html">Work</a></li>
+                    <li class="itemMenu"><a href="./about.html">About us</a></li>
+                </div>
+                <div class="contactItemMenu">
+                    <li class="itemMenu iMenuPhone">&#40;467&#41; 888 6357</li>
+
+                    <li class="itemMenu iMenuGetQuote"><a href="./getquote.html">Get a quote</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="mainCommon">
+        <header class="headerCommon">
+            <div class="headerCommonDiv">
+                <p>About Rubi WebDev</p>
+                <img src="./img/aboutus.svg" alt="Picture about portafolio">
+            </div>
+        </header>
+
+        <h1 class="who">Hi! I am Rubi</h1>
+
+        <section class="whoWeAre">
+            <div class="whoWeAreDiv">
+
+                <p>I am a passionate web designer and developer who graduated from Humber College, Toronto. I started
+                    this business as a way to help small businesses and startups bring their business online.</p>
+                <p>
+                    At Rubi WebDev, we have a vision of providing businesses with amazing web solutions to help their
+                    business to grow in the digital world. </p>
+
+                <p> We provide a wealth of experience to move your operations,
+                    services, and products into the digital world, we approach every project with your objectives in
+                    mind working together with you to achieve those goals, delivering not just effective web solutions,
+                    but also the best customer service.</p>
+            </div>
+            <img src="./img/aboutus2.svg" alt="A picture about us">
+        </section>
+
+        <section class="callaction">
+            <p>Lest work together</p>
+            <p>And grow your business</p>
+        </section>
+
+
+
+        <div id="getAQuote" class="getAQuote">
+
+            <img class="contactUs" src="../img/contactus.svg" alt="Pictue abut contact us">
+            <form class="qForm qForm-service">
+                <div class=contentQForm>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="rootFooter">
+        <div class="footer">
+
+        </div>
+    </footer>
+
+    <!-- <script src="./js/script.js"></script> -->
+    <script type="module" src="./module/about.js"></script>
+</body>
+
+</html>

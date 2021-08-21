@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/mquery.css">
+</head>
+
+<body>
+	<header class="header">
+
+		<div class="brand">
+			<a href="./"><img class="brandLogo" src="./img/logo1.svg" alt="Logo"></a>
+			<a href="./"><img class="brandName" src="./img/logo2.svg" alt="Rubi WebDev"></a>
+		</div>
+
+		<button id="hamBtn" class="hamBtn hamBtnOpen"></button>
+
+		<nav id="navigation" class="navigation hide">
+			<ul class="ulMenu">
+				<div>
+					<li class="itemMenu"><a href="./">Home</a></li>
+					<li class="itemMenu menuServices serviceOpen"><span>Services </span><span
+							class="trangle">&dtrif;</span>
+						<ul id="submenuServices" class="hide">
+							<li id="sWDes" class="submenuItem"><a href="./services.html?ser=sWDes">Web design</a></li>
+							<li id="sWDev" class="submenuItem"><a href="./services.html?ser=sWDev">Web development</a>
+							</li>
+							<li id="sEcom" class="submenuItem"><a href="./services.html?ser=sEcom">Ecommerce</a></li>
+							<li id="sMark" class="submenuItem"><a href="./services.html?ser=sMark">Digital marketing</a>
+							</li>
+							<li id="sSupp" class="submenuItem"><a href="./services.html?ser=sSupp">Support and
+									maintenance</a></li>
+						</ul>
+					</li>
+					<li class="itemMenu"><a href="./portafolio.html">Work</a></li>
+					<li class="itemMenu"><a href="./about.html">About us</a></li>
+				</div>
+				<div class="contactItemMenu">
+					<li class="itemMenu iMenuPhone">&#40;467&#41; 888 6357</li>
+
+					<li class="itemMenu iMenuGetQuote"><a href="./getquote.html">Get a quote</a></li>
+				</div>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="mainHome">
+		<header class="header-mainHome">
+			<div class="overlay-header">
+				<div class="legend-btnQuote">
+					<p class="legend"><span>We design and build web solutios</span><span class="weconnect">We connect
+							your business
+							to the world</span>
+					</p>
+					<button class="openQuote btnQuote">Get a Quote</button>
+				</div>
+				<img src="./img/mainpichome.svg" alt="Some nice pictures here">
+			</div>
+			<div id="ocForm" class="hide">
+				<div class="ocFormDdiv">
+					<button class="closeqForm"></button>
+					<form class="qForm qForm-home">
+						<div class=contentQForm>
+						</div>
+					</form>
+				</div>
+			</div>
+		</header>
+
+		<section class="homeh1">
+			<div class="homeh1Div">
+				<h1>We help Small Companies to bring their business online</h1>
+				<p>Servicing the Hamilton, Toronto area and beyond!</p>
+			</div>
+			<section class="root-wUs">
+			</section>
+
+		</section>
+
+		<div class="eListParent">
+			<form class="eList">
+				<div>
+					<label class="labelEList" for="emailEList">Subscribe to our Newsletter</label>
+					<input class="emailEList" id="emailEList" type="emailEList" name="emailEList" value=""
+						placeholder="Type your email &#42;">
+				</div>
+				<input class="submitEList" type="submit" value="Subscribe">
+			</form>
+			<div id="elistAlert" class="hide"></div>
+		</div>
+
+
+	</main>
+
+	<footer class="rootFooter">
+		<div class="footer">
+
+
+			<!-- <nav class="footerNav">
+				<ul class="footerNavUL">
+					<li class="itemfooterNav">Services
+						<ul>
+							<li><a href="./services.html?ser=sWDes">Web Design</a></li>
+							<li><a href="./services.html?ser=sWDev">Web Development</a></li>
+							<li><a href="./services.html?ser=sEcom">Ecommerce</a></li>
+							<li><a href="./services.html?ser=sMark">Digital Marketing</a></li>
+							<li><a href="./services.html?ser=sSupp">Support and Maintenance</a></li>
+						</ul>
+					</li>
+
+
+					<li class="itemfooterNav">Contact Us
+						<ul>
+							<li>89 King St W, Dundas, <span class="pc">on l9h 1v1</span></li>
+							<li>&#40;467&#41; 888 6357</li>
+							<li>info&#64;rubiwebdev.com</li>
+						</ul>
+					</li>
+
+
+			</nav>
+			<div class="rights">
+				<div class="brandFooter">
+					<img class="brandLogoFooter" src="./img/logo1.svg" alt="Logo">
+					<img class="brandNameFooter" src="./img/logo2.svg" alt="Rubi WebDev">
+				</div>
+				<p class="rightsP">All riths reserved</p>
+			</div> -->
+
+
+		</div>
+	</footer>
+
+	<!-- <script src="./js/script.js"></script> -->
+	<script type="module" src="./module/script.js"></script>
+</body>
+
+</html>
